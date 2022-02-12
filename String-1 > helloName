@@ -1,0 +1,4 @@
+public String helloName(String name) {
+  String hello = "Hello " + name +"!";
+  return hello;
+}
