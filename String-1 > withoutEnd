@@ -1,0 +1,4 @@
+public String withoutEnd(String str) {
+  String s = str.substring(1, str.length() - 1);
+  return s;
+}
