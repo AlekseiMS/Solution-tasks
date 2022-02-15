@@ -1,0 +1,8 @@
+public boolean firstLast6(int[] nums) {
+  for (Integer n : nums){
+    if (n == 6 && n == nums[0] || n == 6 && n == nums[nums.length - 1]){
+      return true;
+    }
+  }
+  return false;
+}
