@@ -1,0 +1,8 @@
+public String left2(String str) {
+  String s = str.substring(0,2);
+  String st = str.substring(2,str.length());
+  if (str.length() > 2){
+    return st + s;
+  }
+  return str;
+}
