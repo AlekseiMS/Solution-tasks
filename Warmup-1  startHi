@@ -1,0 +1,7 @@
+public boolean startHi(String str) {
+  String s = "hi";
+  if (str.length() > 1 && str.equals(s) || str.length() > 1 && str.substring(0,2).equals(s)){
+    return true;
+  }
+  return false;
+}
