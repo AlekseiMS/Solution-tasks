@@ -1,0 +1,11 @@
+public String alarmClock(int day, boolean vacation) {
+  String s = "7:00";
+  String st = "10:00";
+  String str = "off";
+  if (day >= 1 && day <=5 && vacation == false){
+    return s;
+  } else if (day == 0 && vacation == true || day == 6 && vacation == true)
+  return str;
+  
+  return st;
+}
