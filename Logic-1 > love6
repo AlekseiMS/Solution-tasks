@@ -1,0 +1,9 @@
+public boolean love6(int a, int b) {
+  int s = a + b;
+  int r = a - b;
+  int c = b - a;
+  if (a == 6 || b == 6 || s == 6 || r == 6 || c == 6){
+    return true;
+  }
+  return false;
+}
