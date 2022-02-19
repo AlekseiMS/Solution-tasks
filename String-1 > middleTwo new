@@ -1,0 +1,4 @@
+public String middleTwo(String str) {
+  int k=str.length()/2;
+return str.substring(k-1,k+1);
+}
