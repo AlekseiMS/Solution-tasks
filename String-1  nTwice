@@ -1,0 +1,21 @@
+public String nTwice(String str, int n) {
+  String s1 = str.substring(0, 1);
+  String s2 = str.substring(0, 2);
+  String s3 = str.substring(0, 3);
+  String s4 = str.substring(0, 4);
+  String st1 = str.substring(str.length() - 1);
+  String st2 = str.substring(str.length() - 2);
+  String st3 = str.substring(str.length() - 3);
+  String st4 = str.substring(str.length() - 4);
+  
+  if (n == 1) {
+    return s1 + st1;
+  } else if (n == 2) {
+    return s2 + st2;
+  } else if (n == 3) {
+    return s3 + st3;
+  } else if (n == 4) {
+    return s4 + st4;
+  }
+  return "";
+}
