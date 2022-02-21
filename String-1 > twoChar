@@ -1,0 +1,15 @@
+public String twoChar(String str, int index) {
+  String res = "";
+  int i = index + 2;
+  if(index + 2 > str.length() - 1){
+  i = str.length();
+  }
+  if(index <= 0 || index > str.length() - 2){
+    res = str.substring(0, 2);
+  }
+  else if(index <= str.length() - 2){ 
+    res = str.substring(index, i);
+    
+  }
+  return res;
+}
