@@ -1,5 +1,0 @@
-public String nTwice(String str, int n) {
-  String s = str.substring(0, n);
-  String st = str.substring(str.length() - (n));
-  return s + st;
-}
