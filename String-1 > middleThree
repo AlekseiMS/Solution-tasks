@@ -1,0 +1,7 @@
+public String middleThree(String str) {
+int s = str.length() / 2;
+  if (str.length() > 3) {
+  return str.substring(s- 1, s + 2);
+  }
+  return "and";
+}
