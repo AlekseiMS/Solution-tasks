@@ -1,0 +1,8 @@
+public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+  if (isMorning == false && isMom == false && isAsleep == false
+  || isMom == true && isMorning == true && isAsleep == false
+  || isMorning == false && isMom == true && isAsleep == false) {
+    return true;
+  }
+  return false;
+}
